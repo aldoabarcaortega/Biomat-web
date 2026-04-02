@@ -426,7 +426,7 @@ const App = () => {
       <div className="bg-slate-900 text-slate-400 py-2.5 text-[11px] font-semibold uppercase tracking-widest">
         <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
           <div className="flex gap-6 items-center">
-            <span className="hidden sm:inline border-r border-slate-700 pr-6 text-slate-300">USACH | Facultad de Ingeniería</span>
+            <span className="hidden sm:inline border-r border-slate-700 pr-6 text-slate-300">USACH | Departamento de Ingeniería Mecánica</span>
             <button onClick={() => setLang(lang === 'es' ? 'en' : 'es')} className="flex items-center gap-2 hover:text-teal-400 transition-colors">
               <Globe className="w-3.5 h-3.5 text-teal-500" /> {lang === 'es' ? 'English' : 'Español'}
             </button>
